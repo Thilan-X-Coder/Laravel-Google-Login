@@ -1,0 +1,14 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto eol=lf
+
+# Specify how Git should handle line endings for specific file types.
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+# Ignore specific files or directories when exporting.
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
